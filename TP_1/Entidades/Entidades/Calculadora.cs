@@ -9,27 +9,29 @@ namespace Entidades
     public class Calculadora
     {
         
-        public double Operar(Numero numero1, Numero numero2, string operador) 
+        public static double Operar(Numero numero1, Numero numero2, string operador) 
         {
-            double returnAux = 0;
+            double retorno;
+            string valido;
+            valido = ValidarOperador(operador);
 
-            switch (ValidarOperador(operador))
+            switch (valido)
             {
-                case "+":
-                    returnAux = numero1 + numero2;
+                case "/":
+                    retorno = numero1 / numero2;
                     break;
                 case "-":
-                    returnAux = numero1 - numero2;
+                    retorno = numero1 - numero2;
+                    break;      
+                case "+":
+                    retorno = numero1 + numero2;
                     break;
-                case "*":
-                    returnAux = numero1 * numero2;
-                    break;
-                case "/":
-                    returnAux = numero1 / numero2;
+                default:
+                    retorno = numero1 * numero2;
                     break;
             }
-
-            return returnAux;
+            
+            return retorno;
         }
         
         private static string ValidarOperador(string operador)

@@ -7,27 +7,32 @@ using System.Threading.Tasks;
 namespace Entidades
 {
    public class Numero
-    {
+   {
+       #region Atributo
 
+       private double _numero;
+       #endregion
 
-        private double numero;
-
-        #region Propiedades
-        public string SetNumero
+       #region Propiedades
+       public string SetNumero
         {
             set
             {
-                numero = ValidarNumero(value);
+                _numero = ValidarNumero(value);
             }
         }
         #endregion
 
-        #region Constructores
-        public Numero() { }
+       #region Constructores
+       
+        public Numero() 
+        {
+
+        }
 
         public Numero(double numero)
         {
-            this.numero = numero;
+            this._numero = numero;
         }
 
         public Numero(string numero)
@@ -36,39 +41,38 @@ namespace Entidades
         }
         #endregion
 
-        #region Metodos
+       #region Metodos
         private double ValidarNumero(string numero)
         {
-            double returnAux;
-            if (!double.TryParse(numero, out returnAux))
+            double retorno;
+            bool valido = double.TryParse(numero, out retorno);
+            if (!valido)
             {
-                returnAux = 0;
+                retorno = 0;
             }
-            return returnAux;
+            return retorno;
         }
 
         public static string BinarioDecimal(string numero)
         {
 
-
-            int i;
             int entero = 0;
-            string returnAux = "";
-            if (numero == "" || ReferenceEquals(numero, null))
+            int binario;
+            string retorno="";
+            if (int.TryParse(numero, out binario))
             {
-                string mensaje = "Valor Invalido";
-                returnAux = mensaje;
+                for (int i = 1; i <= numero.Length; i++)
+                {
+                    entero += int.Parse(numero[i - 1].ToString()) * (int)Math.Pow(2, numero.Length - i);
+                    retorno = entero.ToString();
+                }
             }
             else
             {
-                for (i = 1; i < numero.Length; i++)
-                {
-                    entero += int.Parse(numero[i - 1].ToString()) * (int)Math.Pow(2, numero.Length - i);
-                }
-                returnAux = entero.ToString();
+                retorno = "Valor invalido";
             }
 
-            return returnAux;
+            return retorno ;
         }
 
         public static string DecimalBinario(double binario)
@@ -79,48 +83,48 @@ namespace Entidades
         public static string DecimalBinario(string binario)
         {
             int numero;
-            string returnValue = "";
+            string retorno = "";
 
             if (int.TryParse(binario, out numero))
             {
                 while (numero > 0)
                 {
-                    returnValue = (numero % 2).ToString() + returnValue;
+                    retorno = (numero % 2).ToString() + retorno;
                     numero = numero / 2;
                 }
             }
             else
-                returnValue = "Valor inválido";
+                retorno = "Valor inválido";
 
-            return returnValue;
+            return retorno;
         }
 
         public static double operator +(Numero n1, Numero n2)
         {
-            double returnAux = n1.numero + n2.numero;
-            return returnAux;
+            double retorno = n1._numero + n2._numero;
+            return retorno;
         }
 
         public static double operator -(Numero n1, Numero n2)
         {
-            double returnAux = n1.numero - n2.numero;
-            return returnAux;
+            double retorno = n1._numero - n2._numero;
+            return retorno;
         }
 
         public static double operator *(Numero n1, Numero n2)
         {
-            double returnAux = n1.numero * n2.numero;
-            return returnAux;
+            double retorno = n1._numero * n2._numero;
+            return retorno;
         }
 
         public static double operator /(Numero n1, Numero n2)
         {
-            double returnAux = 0;
-            if (n2.numero > 0)
+            double retorno = 0;
+            if (n2._numero > 0)
             {
-                returnAux = n1.numero / n2.numero;
+                retorno = n1._numero / n2._numero;
             }
-            return returnAux;
+            return retorno;
         }
         #endregion
     }

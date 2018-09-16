@@ -17,6 +17,7 @@ namespace MiCalculadora
         public LaCalculadora()
         {
             InitializeComponent();
+            cmbOperador.SelectedItem = "+";
         }
 
         private void LaCalculadora_Load(object sender, EventArgs e)
@@ -24,16 +25,19 @@ namespace MiCalculadora
 
         }
 
+        private double Operar(string numero1, string numero2, string operador)
+        {            
+            Numero num = new Numero(numero1);
+            Numero num2 = new Numero(numero2);
+
+            double retorno = Calculadora.Operar(num, num2, operador);
+            return retorno;
+        }
+
+      
         private void btnOperar_Click(object sender, EventArgs e)
         {
-            string numero1 = this.txtNumero1.Text;
-            string numero2 = this.txtNunero2.Text;
-            string operador = this.cmbOperador.Text;
-            Numero n1 = new Numero(numero1);
-            Numero n2 = new Numero(numero2);
-            Calculadora c = new Calculadora();
-            double resultAux = c.Operar(n1, n2, operador);
-            this.lblRespuesta.Text = resultAux.ToString();
+            lblRespuesta.Text = this.Operar(txtNumero1.Text, txtNunero2.Text, cmbOperador.Text).ToString();
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -43,7 +47,11 @@ namespace MiCalculadora
 
         private void btnConvertirABinario_Click(object sender, EventArgs e)
         {
-            if (this.lblRespuesta.Text != null)
+            if (this.lblRespuesta.Text == null)
+            {
+                this.lblRespuesta.Text = "Error";
+            }
+            else 
             {
                 this.lblRespuesta.Text = Numero.DecimalBinario(this.lblRespuesta.Text);
             }
@@ -62,10 +70,15 @@ namespace MiCalculadora
 
         private void btnConvertirADecimal_Click(object sender, EventArgs e)
         {
-            if (this.lblRespuesta.Text != null)
-            {              
-                this.lblRespuesta.Text  = Numero.BinarioDecimal(this.lblRespuesta.Text);
+            if (this.lblRespuesta.Text == null)
+            {
+                this.lblRespuesta.Text = "Error";
             }
+            else
+            {
+                this.lblRespuesta.Text = Numero.BinarioDecimal(this.lblRespuesta.Text);
+            }
+            
         }
     }
 }
