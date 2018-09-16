@@ -45,7 +45,7 @@ namespace MiCalculadora
         {
             if (this.lblRespuesta.Text != null)
             {
-                this.lblRespuesta.Text = Numero.BinarioDecimal(this.lblRespuesta.Text);
+                this.lblRespuesta.Text = Numero.DecimalBinario(this.lblRespuesta.Text);
             }
         }
 
@@ -63,9 +63,8 @@ namespace MiCalculadora
         private void btnConvertirADecimal_Click(object sender, EventArgs e)
         {
             if (this.lblRespuesta.Text != null)
-            {
-                double returnAux = Numero.DecimalBinario(this.lblRespuesta.Text);
-                this.lblRespuesta.Text = returnAux.ToString();
+            {              
+                this.lblRespuesta.Text  = Numero.BinarioDecimal(this.lblRespuesta.Text);
             }
         }
     }

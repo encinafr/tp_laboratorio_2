@@ -12,3 +12,11 @@ C:\Users\encin\Desktop\Entidades\MiCalculadora\obj\Debug\MiCalculadora.pdb
 C:\Users\encin\Desktop\TP_1\Entidades\MiCalculadora\bin\Debug\MiCalculadora.exe.config
 C:\Users\encin\Desktop\TP_1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.exe
 C:\Users\encin\Desktop\TP_1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Users\encin\Desktop\TP_1\Entidades\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\encin\Desktop\TP_1\Entidades\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\encin\Desktop\TP_1\Entidades\MiCalculadora\bin\Debug\Entidades.exe
+C:\Users\encin\Desktop\TP_1\Entidades\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\encin\Desktop\TP_1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csprojResolveAssemblyReference.cache
+C:\Users\encin\Desktop\TP_1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.LaCalculadora.resources
+C:\Users\encin\Desktop\TP_1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\encin\Desktop\TP_1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.Cache

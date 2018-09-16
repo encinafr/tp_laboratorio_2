@@ -10,7 +10,7 @@ namespace Entidades
     {
 
 
-        protected double numero;
+        private double numero;
 
         #region Propiedades
         public string SetNumero
@@ -71,23 +71,28 @@ namespace Entidades
             return returnAux;
         }
 
-        public static double DecimalBinario(double numero)
+        public static string DecimalBinario(double binario)
         {
-            string binario = "";
-            while (numero > 0)
-            {
-                binario = (numero % 2).ToString() + binario;
-                numero = numero / 2;
-            }
-            double returnAux = double.Parse(binario);
-            return returnAux;
+            return DecimalBinario(binario.ToString());
         }
 
-        public static double DecimalBinario(string numero)
+        public static string DecimalBinario(string binario)
         {
-            double returnAux = double.Parse(numero);
-            returnAux = DecimalBinario(returnAux);
-            return returnAux;
+            int numero;
+            string returnValue = "";
+
+            if (int.TryParse(binario, out numero))
+            {
+                while (numero > 0)
+                {
+                    returnValue = (numero % 2).ToString() + returnValue;
+                    numero = numero / 2;
+                }
+            }
+            else
+                returnValue = "Valor inválido";
+
+            return returnValue;
         }
 
         public static double operator +(Numero n1, Numero n2)
