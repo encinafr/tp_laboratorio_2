@@ -1,0 +1,13 @@
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\TestUnitario\bin\Debug\TestUnitario.dll
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\TestUnitario\bin\Debug\TestUnitario.pdb
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\TestUnitario\obj\Debug\TestUnitario.csprojResolveAssemblyReference.cache
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\TestUnitario\obj\Debug\TestUnitario.dll
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\TestUnitario\obj\Debug\TestUnitario.pdb
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\TestUnitario\bin\Debug\Archivos.dll
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\TestUnitario\bin\Debug\Clases Abstractas.dll
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\TestUnitario\bin\Debug\Clases Instanciables.dll
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\TestUnitario\bin\Debug\Excepciones.dll
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\TestUnitario\bin\Debug\Archivos.pdb
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\TestUnitario\bin\Debug\Clases Abstractas.pdb
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\TestUnitario\bin\Debug\Clases Instanciables.pdb
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\TestUnitario\bin\Debug\Excepciones.pdb

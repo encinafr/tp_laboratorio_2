@@ -1,0 +1,7 @@
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csprojResolveAssemblyReference.cache
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\Clases Abstractas\bin\Debug\Clases Abstractas.dll
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\Clases Abstractas\bin\Debug\Clases Abstractas.pdb
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\Clases Abstractas\bin\Debug\Excepciones.dll
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\Clases Abstractas\bin\Debug\Excepciones.pdb
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.dll
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.pdb
