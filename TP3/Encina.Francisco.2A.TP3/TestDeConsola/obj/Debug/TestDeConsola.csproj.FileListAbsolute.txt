@@ -14,3 +14,19 @@ C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\TestDeConsola\bin\Debug\TestUnita
 C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\TestDeConsola\obj\Debug\TestDeConsola.csprojResolveAssemblyReference.cache
 C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\TestDeConsola\obj\Debug\TestDeConsola.exe
 C:\Users\encin\Desktop\Encina.Francisco.2A.TP3\TestDeConsola\obj\Debug\TestDeConsola.pdb
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP3\Encina.Francisco.2A.TP3\TestDeConsola\bin\Debug\TestDeConsola.exe.config
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP3\Encina.Francisco.2A.TP3\TestDeConsola\obj\Debug\TestDeConsola.exe
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP3\Encina.Francisco.2A.TP3\TestDeConsola\obj\Debug\TestDeConsola.pdb
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP3\Encina.Francisco.2A.TP3\TestDeConsola\bin\Debug\TestDeConsola.exe
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP3\Encina.Francisco.2A.TP3\TestDeConsola\bin\Debug\TestDeConsola.pdb
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP3\Encina.Francisco.2A.TP3\TestDeConsola\bin\Debug\Archivos.dll
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP3\Encina.Francisco.2A.TP3\TestDeConsola\bin\Debug\Clases Abstractas.dll
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP3\Encina.Francisco.2A.TP3\TestDeConsola\bin\Debug\Clases Instanciables.dll
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP3\Encina.Francisco.2A.TP3\TestDeConsola\bin\Debug\Excepciones.dll
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP3\Encina.Francisco.2A.TP3\TestDeConsola\bin\Debug\TestUnitario.dll
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP3\Encina.Francisco.2A.TP3\TestDeConsola\bin\Debug\Archivos.pdb
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP3\Encina.Francisco.2A.TP3\TestDeConsola\bin\Debug\Clases Abstractas.pdb
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP3\Encina.Francisco.2A.TP3\TestDeConsola\bin\Debug\Clases Instanciables.pdb
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP3\Encina.Francisco.2A.TP3\TestDeConsola\bin\Debug\Excepciones.pdb
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP3\Encina.Francisco.2A.TP3\TestDeConsola\bin\Debug\TestUnitario.pdb
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP3\Encina.Francisco.2A.TP3\TestDeConsola\obj\Debug\TestDeConsola.csprojResolveAssemblyReference.cache

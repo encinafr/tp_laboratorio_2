@@ -230,21 +230,21 @@ namespace Clases_Instanciables
         /// <returns></returns>
         public static Universidad operator +(Universidad g, Universidad.EClases clase)
         {
-            foreach (Profesor aux in g.Instructores)
+            foreach (Profesor profesor in g.Instructores)
             {
-                if (aux == clase)
+                if (profesor == clase)
                 {
-                    Jornada J = new Jornada(clase, aux);
+                    Jornada jornada = new Jornada(clase, profesor);
 
-                    foreach (Alumno auxA in g.Alumnos)
+                    foreach (Alumno item in g.Alumnos)
                     {
-                        if (auxA == clase)
+                        if (item == clase)
                         {
-                            J.Alumnos.Add(auxA);
+                            jornada.Alumnos.Add(item);
                         }
                     }
 
-                    g.Jornadas.Add(J);
+                    g.Jornadas.Add(jornada);
                     return g;
                 }
 
