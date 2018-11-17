@@ -1,0 +1,6 @@
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP4\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP4\Entidades\obj\Debug\Entidades.pdb
+C:\Users\encin\Desktop\Encina.Francisco.2A.TP4\Entidades\bin\Debug\Entidades.dll.config
