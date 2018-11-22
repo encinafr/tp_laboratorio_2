@@ -23,10 +23,7 @@ namespace MainCorreo
             lstEstadoEntregado.Text = " ";
         }
 
-        private void MostrartoolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            this.MostrarInformacion<Paquete>((IMostrar<Paquete>)lstEstadoEntregado.SelectedItem);
-        }
+
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
@@ -89,7 +86,7 @@ namespace MainCorreo
         }
 
         private void btnMostrarTodos_Click(object sender, EventArgs e)
-        {
+        {   
             this.MostrarInformacion<List<Paquete>>((IMostrar<List<Paquete>>)correo);
         }
        
@@ -104,11 +101,15 @@ namespace MainCorreo
              
         }
 
-         private void lstEstadoEntregado_MouseDown(object sender, MouseEventArgs e)
+         private void mostrarToolStripMenuItem_Click(object sender, EventArgs e)
          {
-             if (e.Button == MouseButtons.Right)
-             { this.mostrarToolStripMenuStrip.Show(Cursor.Position.X, Cursor.Position.Y); }
+             this.MostrarInformacion<Paquete>((IMostrar<Paquete>)lstEstadoEntregado.SelectedItem);
          }
+
+        
+         
+
+         
 
        
 

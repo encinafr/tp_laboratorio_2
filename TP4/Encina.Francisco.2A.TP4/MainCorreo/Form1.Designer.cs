@@ -44,12 +44,11 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.rtbMostar = new System.Windows.Forms.RichTextBox();
-            this.mostrarToolStripMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.MostrartoolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsListas = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.mostrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.mostrarToolStripMenuStrip.SuspendLayout();
+            this.cmsListas.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -95,12 +94,12 @@
             // 
             // lstEstadoEntregado
             // 
+            this.lstEstadoEntregado.ContextMenuStrip = this.cmsListas;
             this.lstEstadoEntregado.FormattingEnabled = true;
             this.lstEstadoEntregado.Location = new System.Drawing.Point(613, 33);
             this.lstEstadoEntregado.Name = "lstEstadoEntregado";
             this.lstEstadoEntregado.Size = new System.Drawing.Size(250, 212);
             this.lstEstadoEntregado.TabIndex = 3;
-            this.lstEstadoEntregado.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lstEstadoEntregado_MouseDown);
             // 
             // lstEstadoEnviaje
             // 
@@ -197,25 +196,20 @@
             this.rtbMostar.TabIndex = 4;
             this.rtbMostar.Text = "";
             // 
-            // mostrarToolStripMenuStrip
-            // 
-            this.mostrarToolStripMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.MostrartoolStripMenuItem1});
-            this.mostrarToolStripMenuStrip.Name = "contextMenuStrip1";
-            this.mostrarToolStripMenuStrip.Size = new System.Drawing.Size(116, 26);
-            // 
-            // MostrartoolStripMenuItem1
-            // 
-            this.MostrartoolStripMenuItem1.Name = "MostrartoolStripMenuItem1";
-            this.MostrartoolStripMenuItem1.Size = new System.Drawing.Size(115, 22);
-            this.MostrartoolStripMenuItem1.Text = "Mostrar";
-            this.MostrartoolStripMenuItem1.Click += new System.EventHandler(this.MostrartoolStripMenuItem1_Click);
-            // 
             // cmsListas
             // 
+            this.cmsListas.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mostrarToolStripMenuItem});
             this.cmsListas.Name = "cmsListas";
-            this.cmsListas.Size = new System.Drawing.Size(61, 4);
+            this.cmsListas.Size = new System.Drawing.Size(116, 26);
             this.cmsListas.Text = "Mostrar";
+            // 
+            // mostrarToolStripMenuItem
+            // 
+            this.mostrarToolStripMenuItem.Name = "mostrarToolStripMenuItem";
+            this.mostrarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.mostrarToolStripMenuItem.Text = "Mostrar";
+            this.mostrarToolStripMenuItem.Click += new System.EventHandler(this.mostrarToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -231,7 +225,7 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.mostrarToolStripMenuStrip.ResumeLayout(false);
+            this.cmsListas.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -252,10 +246,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.MaskedTextBox mTxtTrackingId;
         private System.Windows.Forms.RichTextBox rtbMostar;
-        private System.Windows.Forms.ContextMenuStrip mostrarToolStripMenuStrip;
-        private System.Windows.Forms.ToolStripMenuItem MostrartoolStripMenuItem1;
         private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.ContextMenuStrip cmsListas;
+        private System.Windows.Forms.ToolStripMenuItem mostrarToolStripMenuItem;
     }
 }
 
