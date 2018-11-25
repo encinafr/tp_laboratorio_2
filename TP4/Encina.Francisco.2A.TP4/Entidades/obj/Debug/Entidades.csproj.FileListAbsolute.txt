@@ -4,3 +4,9 @@ C:\Users\encin\Desktop\Encina.Francisco.2A.TP4\Entidades\obj\Debug\Entidades.csp
 C:\Users\encin\Desktop\Encina.Francisco.2A.TP4\Entidades\obj\Debug\Entidades.dll
 C:\Users\encin\Desktop\Encina.Francisco.2A.TP4\Entidades\obj\Debug\Entidades.pdb
 C:\Users\encin\Desktop\Encina.Francisco.2A.TP4\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP4\Encina.Francisco.2A.TP4\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP4\Encina.Francisco.2A.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP4\Encina.Francisco.2A.TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP4\Encina.Francisco.2A.TP4\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP4\Encina.Francisco.2A.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP4\Encina.Francisco.2A.TP4\Entidades\obj\Debug\Entidades.pdb

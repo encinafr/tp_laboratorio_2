@@ -1,0 +1,9 @@
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP4\Encina.Francisco.2A.TP4\CorreoTest\bin\Debug\CorreoTest.dll
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP4\Encina.Francisco.2A.TP4\CorreoTest\bin\Debug\CorreoTest.pdb
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP4\Encina.Francisco.2A.TP4\CorreoTest\bin\Debug\Entidades.dll
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP4\Encina.Francisco.2A.TP4\CorreoTest\bin\Debug\MainCorreo.exe
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP4\Encina.Francisco.2A.TP4\CorreoTest\bin\Debug\Entidades.pdb
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP4\Encina.Francisco.2A.TP4\CorreoTest\bin\Debug\MainCorreo.pdb
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP4\Encina.Francisco.2A.TP4\CorreoTest\obj\Debug\CorreoTest.csprojResolveAssemblyReference.cache
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP4\Encina.Francisco.2A.TP4\CorreoTest\obj\Debug\CorreoTest.dll
+C:\Users\encin\Documents\GitHub\tp_laboratorio_2\TP4\Encina.Francisco.2A.TP4\CorreoTest\obj\Debug\CorreoTest.pdb
