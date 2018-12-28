@@ -1,0 +1,6 @@
+C:\Users\encin\Desktop\Entidades_1\TestConsola\bin\Debug\TestConsola.exe.config
+C:\Users\encin\Desktop\Entidades_1\TestConsola\bin\Debug\TestConsola.exe
+C:\Users\encin\Desktop\Entidades_1\TestConsola\bin\Debug\TestConsola.pdb
+C:\Users\encin\Desktop\Entidades_1\TestConsola\obj\Debug\TestConsola.csprojResolveAssemblyReference.cache
+C:\Users\encin\Desktop\Entidades_1\TestConsola\obj\Debug\TestConsola.exe
+C:\Users\encin\Desktop\Entidades_1\TestConsola\obj\Debug\TestConsola.pdb
