@@ -47,45 +47,22 @@ namespace TestConsola
          
           
             System.Net.Mail.MailMessage mmsg = new System.Net.Mail.MailMessage();
-
-            //Direccion de correo electronico a la que queremos enviar el mensaje
             mmsg.To.Add("encinajavier7@gmail.com");
-
-            //Nota: La propiedad To es una colección que permite enviar el mensaje a más de un destinatario
-
-            //Asunto
             mmsg.Subject = "Cambios en el directorio";
             mmsg.SubjectEncoding = System.Text.Encoding.UTF8;
-
-
-            //Cuerpo del Mensaje
             mmsg.Body = "Archivo modificado"+ e.Name;
             mmsg.BodyEncoding = System.Text.Encoding.UTF8;
-            mmsg.IsBodyHtml = false; //Si no queremos que se envíe como HTML
-
-            //Correo electronico desde la que enviamos el mensaje
+            mmsg.IsBodyHtml = false; 
             mmsg.From = new System.Net.Mail.MailAddress("encinajavier7@gmail.com");
 
-
-            /*-------------------------CLIENTE DE CORREO----------------------*/
-
-            //Creamos un objeto de cliente de correo
             System.Net.Mail.SmtpClient cliente = new System.Net.Mail.SmtpClient();
 
-            //Hay que crear las credenciales del correo emisor
             cliente.Credentials =
                 new System.Net.NetworkCredential("encinajavier7@gmail.com", "iwalkbesideyou");
-
-            //Lo siguiente es obligatorio si enviamos el mensaje desde Gmail
-            
             cliente.Port = 587;
             cliente.EnableSsl = true;
 
-
             cliente.Host = "smtp.gmail.com"; //Para Gmail "smtp.gmail.com";
-
-
-           
 
             try
             {
@@ -94,7 +71,7 @@ namespace TestConsola
             }
             catch (System.Net.Mail.SmtpException ex)
             {
-                //Aquí gestionamos los errores al intentar enviar el correo
+                Console.WriteLine(ex.Message);
             }
         }
 
