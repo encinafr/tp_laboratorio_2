@@ -1,0 +1,6 @@
+Para mirar todos los comandos que podemos usar: dotnet new
+Para crear una aplicación de consola: dotnet new console
+Para correr nuestra app: dotnet run
+Para compilar nuestra app: dotnet build
+Paa compilar para Windows10x64: dotnet build -c Release -r win10x64
+Para crear una aplicación de consola indicando el nombre del proyecto: dotnet new console --output platziHelloWorld
